@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+}
+.handle {
+  display: contents;
+  flex-direction: row;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  cursor: default;
+  position: fixed;
+}
+.letters {
+  cursor: pointer;
+  font-size: 15pt;
+  float: left;
+  position: relative;
+  width: 20%;
+  height: 20%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  overflow: visible;
+  outline: 0.08em solid silver;
+  text-transform: uppercase;
+  text-align: center;
+}
+.hide {
+  opacity: 0%;
+}
+.guesses {
+  font-size: 20pt;
+  width: calc(100% - 0.4em);
+  text-align: center;
+  font-family: Menlo, Monaco, Consolas, Inconsolata, "Courier New", monospace;
+  position: relative;
+}
+.winner {
+  float: left;
+  position: relative;
+  margin-left: 0px;
+}
+.loose {
+  float: left;
+  position: relative;
+  margin-left: 0px;
+}
+.button {
+  width: 120px;
+  height: 20px;
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  position: absolute;
+  text-align: center;
+  bottom: 50px;
+  left: 600px;
+  border-radius: 6px;
+  background-color: cornflowerblue;
+  color: white;
+  text-transform: uppercase;
+}

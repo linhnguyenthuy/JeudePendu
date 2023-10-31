@@ -1,0 +1,10 @@
+.hangman {
+  float: left;
+  position: relative;
+  margin-left: 0px;
+  object-fit: scale-down;
+}
+
+.img {
+  object-fit: scale-down;
+}
